@@ -1,4 +1,9 @@
 window.onload = () => {
+  document.body.style.opacity = 0;
+  setTimeout(() => {
+    document.body.style.opacity = 1;
+  }, 300);
+
   const header = document.getElementsByTagName("header")[0];
   const { firstElementChild: nav } = header;
   const navButtons = nav.getElementsByTagName("li");
