@@ -7,7 +7,7 @@
 }
 
 #home-articles article {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(0, 0, 0, 0.6);
   width: 90vw;
   height: 300px;
   margin-bottom: 30px;
@@ -17,6 +17,10 @@
   justify-content: space-around;
   align-items: center;
   position: relative;
+}
+
+#home-articles article:first-child {
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 #home-articles article::before {
@@ -118,5 +122,9 @@
 
   #home-articles article:first-child {
     flex-basis: 63vw;
+  }
+
+  #home-articles article h2 {
+    font-size: 1.5em;
   }
 }
