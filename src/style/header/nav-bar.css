@@ -1,0 +1,37 @@
+header {
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.9);
+  font-family: "Roboto";
+  font-weight: 200;
+}
+
+header ul {
+  list-style: none;
+}
+
+header ul li {
+  background-color: rgba(0, 0, 0, 0.65);
+  margin: 20px auto 0 auto;
+  text-align: center;
+}
+
+header ul li .nav-selected {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+#main-nav-bar ul li {
+  --header-nav-height: 40px;
+  height: var(--header-nav-height);
+  line-height: var(--header-nav-height);
+  font-size: 1.2em;
+  width: 90%;
+}
+
+#sub-nav-bar ul li {
+  --header-nav-height: 25px;
+  height: var(--header-nav-height);
+  line-height: var(--header-nav-height);
+  font-size: 0.9em;
+  width: 70%;
+  font-weight: 400;
+}

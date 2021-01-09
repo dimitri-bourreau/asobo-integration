@@ -1,0 +1,16 @@
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+  background-image: url("../assets/background.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}

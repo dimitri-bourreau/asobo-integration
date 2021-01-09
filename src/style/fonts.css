@@ -32,12 +32,12 @@
 @font-face {
   font-family: "Roboto";
   src: url("../assets/fonts/Roboto-Light.ttf");
-  font-weight: 200;
+  font-weight: 300;
 }
 @font-face {
   font-family: "Roboto";
   src: url("../assets/fonts/Roboto-LightItalic.ttf");
-  font-weight: 200;
+  font-weight: 300;
   font-style: italic;
 }
 @font-face {
