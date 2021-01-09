@@ -21,7 +21,7 @@ header ul li.nav-selected {
 }
 
 #main-nav-bar ul li {
-  --header-nav-height: 40px;
+  --header-nav-height: 30px;
   height: var(--header-nav-height);
   line-height: var(--header-nav-height);
   font-size: 1.2em;
@@ -35,4 +35,29 @@ header ul li.nav-selected {
   font-size: 0.9em;
   width: 70%;
   font-weight: 400;
+}
+
+@media all and (min-width: 992px) {
+  header {
+    margin-top: 4vh;
+  }
+
+  header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #sub-nav-bar ul {
+    width: 50vw;
+    margin: auto;
+  }
+
+  #main-nav-bar ul li {
+    width: 20vw;
+  }
+
+  #sub-nav-bar ul li {
+    width: 15vw;
+  }
 }
