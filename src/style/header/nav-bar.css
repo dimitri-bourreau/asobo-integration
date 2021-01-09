@@ -39,7 +39,8 @@ header ul li.nav-selected {
 
 @media all and (min-width: 992px) {
   header {
-    margin-top: 4vh;
+    max-width: 85vw;
+    margin: 4vh auto auto auto;
   }
 
   header ul {
@@ -54,10 +55,32 @@ header ul li.nav-selected {
   }
 
   #main-nav-bar ul li {
-    width: 20vw;
+    width: 20%;
   }
 
   #sub-nav-bar ul li {
+    width: 15vw;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  #sub-nav-bar ul {
+    width: 40vw;
+    margin: auto;
+  }
+
+  #sub-nav-bar ul li {
+    width: 10vw;
+  }
+}
+
+@media all and (min-width: 1400px) {
+  header {
+    max-width: 69vw;
+    margin: 4vh auto auto auto;
+  }
+
+  #main-nav-bar ul li {
     width: 15vw;
   }
 }

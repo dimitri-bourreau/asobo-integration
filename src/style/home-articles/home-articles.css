@@ -111,20 +111,38 @@
 
 @media all and (min-width: 992px) {
   #home-articles {
+    max-width: 85vw;
+  }
+
+  #home-articles {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
 
   #home-articles article {
-    width: 30vw;
+    width: 25vw;
   }
 
   #home-articles article:first-child {
-    flex-basis: 63vw;
+    flex-basis: 53vw;
   }
 
   #home-articles article h2 {
     font-size: 1.5em;
+  }
+}
+
+@media all and (min-width: 1400px) {
+  #home-articles {
+    max-width: 70vw;
+  }
+
+  #home-articles article {
+    width: 20vw;
+  }
+
+  #home-articles article:first-child {
+    flex-basis: 43vw;
   }
 }
