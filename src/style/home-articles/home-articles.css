@@ -1,0 +1,52 @@
+#home-articles {
+  margin: 30px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#home-articles article {
+  background-color: rgba(255, 255, 255, 0.3);
+  width: 90vw;
+  height: 300px;
+  padding: 7px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#home-main-article h1 {
+  width: 100%;
+  padding-left: 10px;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.4);
+  font-weight: 100;
+  font-size: 2.8em;
+  line-height: 70px;
+  height: 70px;
+}
+
+#home-articles .article-decorative-img {
+  width: 100%;
+  height: 70%;
+}
+
+#home-articles .article-decorative-img {
+  background-image: url("../../assets/tile_image_1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+#home-articles .article-caption {
+  color: rgba(255, 255, 255, 0.9);
+  background-color: rgba(0, 0, 0, 0.5);
+  font-weight: normal;
+  height: 55%;
+  padding: 5px;
+}
