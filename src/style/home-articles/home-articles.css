@@ -4,6 +4,8 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  opacity: 1;
+  transition: opacity 0.2s ease-in;
 }
 
 #home-articles article {
