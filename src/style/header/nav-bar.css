@@ -46,6 +46,10 @@ header ul li.nav-selected {
   font-weight: 400;
 }
 
+/* ------------------------------------ */
+/* ---------- MEDIA QUERIES ---------- */
+/* ------------------------------------ */
+
 @media all and (min-width: 992px) {
   header {
     max-width: 85vw;
