@@ -104,3 +104,19 @@
   font-weight: normal;
   padding: 5px;
 }
+
+@media all and (min-width: 992px) {
+  #home-articles {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  #home-articles article {
+    width: 30vw;
+  }
+
+  #home-articles article:first-child {
+    flex-basis: 63vw;
+  }
+}
